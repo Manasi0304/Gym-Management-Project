@@ -1,0 +1,45 @@
+c:\users\adeel ahmed\documents\visual studio 2010\Projects\gym managment\gym managment\bin\Debug\gym managment.exe
+c:\users\adeel ahmed\documents\visual studio 2010\Projects\gym managment\gym managment\bin\Debug\gym managment.pdb
+c:\users\adeel ahmed\documents\visual studio 2010\Projects\gym managment\gym managment\obj\x86\Debug\gym_managment.login.resources
+c:\users\adeel ahmed\documents\visual studio 2010\Projects\gym managment\gym managment\obj\x86\Debug\gym_managment.Properties.Resources.resources
+c:\users\adeel ahmed\documents\visual studio 2010\Projects\gym managment\gym managment\obj\x86\Debug\gym managment.csproj.GenerateResource.Cache
+c:\users\adeel ahmed\documents\visual studio 2010\Projects\gym managment\gym managment\obj\x86\Debug\gym managment.exe
+c:\users\adeel ahmed\documents\visual studio 2010\Projects\gym managment\gym managment\obj\x86\Debug\gym managment.pdb
+c:\users\adeel ahmed\documents\visual studio 2010\Projects\gym managment\gym managment\obj\x86\Debug\gym_managment.members.resources
+C:\Users\Adeel Ahmed\Documents\Visual Studio 2010\Projects\gym managment\gym managment\obj\x86\Debug\gym_managment.addmem.resources
+C:\Users\Adeel Ahmed\Documents\Visual Studio 2010\Projects\gym managment\gym managment\obj\x86\Debug\gym managment.csprojResolveAssemblyReference.cache
+C:\Users\Adeel Ahmed\Documents\Visual Studio 2010\Projects\gym managment\gym managment\bin\Debug\gym.mdf
+C:\Users\Adeel Ahmed\Documents\Visual Studio 2010\Projects\gym managment\gym managment\bin\Debug\gym_log.LDF
+C:\Users\Adeel Ahmed\Documents\Visual Studio 2010\Projects\gym managment\gym managment\obj\x86\Debug\gym_managment.fees.resources
+C:\Users\Adeel Ahmed\Documents\Visual Studio 2010\Projects\gym managment\gym managment\obj\x86\Debug\gym_managment.product.resources
+C:\Users\Adeel Ahmed\Documents\Visual Studio 2010\Projects\gym managment\gym managment\bin\Debug\gym managment.exe.config
+C:\Users\Lenovo\Downloads\gym managment\gym managment\bin\Debug\gym managment.exe.config
+C:\Users\Lenovo\Downloads\gym managment\gym managment\obj\x86\Debug\gym managment.exe
+C:\Users\Lenovo\Downloads\gym managment\gym managment\obj\x86\Debug\gym managment.pdb
+C:\Users\Lenovo\Downloads\gym managment\gym managment\bin\Debug\gym.mdf
+C:\Users\Lenovo\Downloads\gym managment\gym managment\bin\Debug\gym_log.ldf
+C:\Users\Lenovo\Downloads\gym managment\gym managment\bin\Debug\gym managment.exe
+C:\Users\Lenovo\Downloads\gym managment\gym managment\bin\Debug\gym managment.pdb
+C:\Users\Lenovo\Downloads\gym managment\gym managment\obj\x86\Debug\gym managment.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Downloads\gym managment\gym managment\obj\x86\Debug\gym_managment.addmem.resources
+C:\Users\Lenovo\Downloads\gym managment\gym managment\obj\x86\Debug\gym_managment.fees.resources
+C:\Users\Lenovo\Downloads\gym managment\gym managment\obj\x86\Debug\gym_managment.login.resources
+C:\Users\Lenovo\Downloads\gym managment\gym managment\obj\x86\Debug\gym_managment.members.resources
+C:\Users\Lenovo\Downloads\gym managment\gym managment\obj\x86\Debug\gym_managment.product.resources
+C:\Users\Lenovo\Downloads\gym managment\gym managment\obj\x86\Debug\gym_managment.Properties.Resources.resources
+C:\Users\Lenovo\Downloads\gym managment\gym managment\obj\x86\Debug\gym managment.csproj.GenerateResource.Cache
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\Mini-project\gym managment\bin\Debug\gym managment.exe.config
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\Mini-project\gym managment\obj\x86\Debug\gym managment.exe
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\Mini-project\gym managment\obj\x86\Debug\gym managment.pdb
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\Mini-project\gym managment\bin\Debug\gym.mdf
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\Mini-project\gym managment\bin\Debug\gym_log.ldf
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\Mini-project\gym managment\bin\Debug\gym managment.exe
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\Mini-project\gym managment\bin\Debug\gym managment.pdb
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\Mini-project\gym managment\obj\x86\Debug\gym managment.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\Mini-project\gym managment\obj\x86\Debug\gym_managment.addmem.resources
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\Mini-project\gym managment\obj\x86\Debug\gym_managment.fees.resources
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\Mini-project\gym managment\obj\x86\Debug\gym_managment.login.resources
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\Mini-project\gym managment\obj\x86\Debug\gym_managment.members.resources
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\Mini-project\gym managment\obj\x86\Debug\gym_managment.product.resources
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\Mini-project\gym managment\obj\x86\Debug\gym_managment.Properties.Resources.resources
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\Mini-project\gym managment\obj\x86\Debug\gym managment.csproj.GenerateResource.Cache

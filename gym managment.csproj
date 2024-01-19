@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB4B384C-8D42-4B94-A167-A3D0F50B5FC8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>gym_managment</RootNamespace>
+    <AssemblyName>gym managment</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addmem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addmem.Designer.cs">
+      <DependentUpon>addmem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fees.Designer.cs">
+      <DependentUpon>fees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gymDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gymDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="members.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="members.Designer.cs">
+      <DependentUpon>members.cs</DependentUpon>
+    </Compile>
+    <Compile Include="product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="product.Designer.cs">
+      <DependentUpon>product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="addmem.resx">
+      <DependentUpon>addmem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fees.resx">
+      <DependentUpon>fees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="members.resx">
+      <DependentUpon>members.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="product.resx">
+      <DependentUpon>product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="gymDataSet.xsc">
+      <DependentUpon>gymDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="gymDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gymDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gymDataSet.xss">
+      <DependentUpon>gymDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gym.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login dark.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit dark .jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kkkkgjrkxhlhqvpfbrfl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_487255.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gym 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-vector-user-group-icon-vector-illustration-style-is-flat-iconic-bicolor-symbol-orange-and-gray-colors-571962250.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fff.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male-bodybuilder-silhouette-flexing-muscles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weightlifting.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\traindark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark member.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002-x-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-vector-user-group-icon-vector-illustration-style-is-flat-iconic-bicolor-symbol-orange-and-gray-colors-5719622501.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\credit-card.png" />
+    <None Include="Resources\wallet.png" />
+    <None Include="Resources\get-money.png" />
+    <None Include="Resources\images %285%29.jpg" />
+    <None Include="Resources\images %284%29.jpg" />
+    <None Include="Resources\seo.png" />
+    <None Include="Resources\web.png" />
+    <None Include="Resources\people %281%29.png" />
+    <None Include="Resources\people.png" />
+    <None Include="Resources\d1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gym.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="gym_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>gym.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\istockphoto-1125903675-612x612.jpg" />
+    <None Include="Resources\istockphoto-1097980926-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
